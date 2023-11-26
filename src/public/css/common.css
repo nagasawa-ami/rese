@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header__container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    padding: 30px 100px;
+    max-width: 1230px;
+    background-color: antiquewhite;
+
+}
+
+.header__menu-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px #ddd;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.span {
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+    grid-area: 1 /1 /-1 /-1;
+}
+
+.header__logo{
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 10px;
+    width: 100px;
+    font-weight: bold;
+    color: blue ;
+
+}
+
+.body{
+    max-width: 1230px;
+}
+
+@media (max-width: 1230px) {
+    .container {
+        width: 100%;
+        /* 画面が1200ピクセル以下の場合は幅を100%に */
+    }
+    }
